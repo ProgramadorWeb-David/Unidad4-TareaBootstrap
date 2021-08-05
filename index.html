@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Title -->
+    <title>Bootstrap 4 - Tarea</title>
+  </head>
+  <body>
+
+    <!-- generamos el contenedor de bootstrap -->
+    <div class="container">
+
+        <!-- fila para barra de navegacion -->
+        <nav class="navbar navbar-dark bg-secondary navbar-expand-md">
+           <div class="container">
+             <a href="#" class="navbar-brand"><span class="text-uppercase font-weight-bold">david leonel</span></a>
+             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navegador" aria-expanded="false">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+
+             <div class="collapse navbar-collapse" id="navegador">
+                <ul class="navbar-nav font-weight-bolder ml-auto">
+                  <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+             </div>
+           
+           </div>
+        </nav> <!-- fin row de navegador -->
+
+
+        <!-- fila para mostrar funcion collaps -->
+        <div class="row p-4 justify-content-center">
+           <article class="col-sm-8">
+             <!-- caja con collaps -->
+             <div class="border rounder p-4 shadow-sm text-center">
+               <h2 class=" text-capitalize">bienvenido/a!</h2>     
+               <button type="submit" class="btn btn-info text-capitalize" data-toggle="collapse" data-target="#boton" aria-expanded="false"><h2>>>>  pulse aquí  <<<</h2></button>
+
+               <!-- parte oculta de la caja con collaps -->
+               <div class="collapse" id="boton">
+                <div class="my-3 p-3 rounded bg-primary text-white text-left">
+                   <h3 class="text-capitalize">hello world!</h3>
+                   <p>Se genera contenido que se oculta o se muestra usando la clase collaps de bootstrap :
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quidem, quibusdam reprehenderit provident dolores iste.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe, debitis quo est tenetur exercitationem.
+                   </p>
+                   <p class="text-center">
+                     <button type="submit" class="btn btn-sm btn-outline-warning" data-toggle="collapse" data-target="#boton" aria-expanded="true"><h2>Cerrar</h2></button>
+                   </p>
+                </div>
+              </div>
+             </div>
+           </article>
+        </div>  <!-- fin row de caja collapse -->
+
+
+        <!-- fila para mostrar algunos tipos de columnas -->
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 bg-primary text-center text-white font-weight-bold">1</div>
+          <div class="col-12 col-sm-6 col-md-4 bg-success text-center text-white font-weight-bold mt-1 mt-sm-0">2</div>
+          <div class="col-12 col-md-4 bg-info text-center text-white font-weight-bold my-1 my-md-0">3</div>
+        </div> <!-- fin row de columnas -->
+
+
+        <!-- fila para mensaje de responsive -->
+        <div class="row">
+          <p class="col-3 mx-auto p-2 rounded shadow display-5 bg-success text-white text-center font-weight-bold mt-4">Esta mini-página es responsive ;)</p>
+        </div>
+
+    </div>  <!-- fin container -->
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
